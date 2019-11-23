@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.ToLower("Hello World", "world"))
-	fmt.Println(strings.ToUpper("Hello World", "World"))
+	fmt.Println(strings.ToLower("Hello World"))
+	fmt.Println(strings.ToUpper("Hello World"))
 }
