@@ -6,4 +6,6 @@ import (
 
 func main() {
 	fmt.Println(3 + 2)
+	fmt.Println(3 - 2.199)
+
 }
