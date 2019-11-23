@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(strings.HasSuffix("Hello World", "hello"))
-	fmt.Println(strings.HasSuffix("Hello World", "Hello"))
+	fmt.Println(strings.HasSuffix("Hello World", "world"))
+	fmt.Println(strings.HasSuffix("Hello World", "World"))
 }
