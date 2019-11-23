@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func mian() {
+func main() {
 	var p *int
 	i := 42
 	fmt.Println("value", i)
