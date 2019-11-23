@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"strings"
 )
 
@@ -9,4 +10,5 @@ func main() {
 	b.WriteString("Hello")
 	b.WriteString("")
 	b.WriteString("World")
+	fmt.Println(b.string())
 }
