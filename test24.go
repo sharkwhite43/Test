@@ -7,4 +7,7 @@ func main() {
 	var name string
 	var age int
 	var height float32
+	var weigth float32
+	n, err := fmt.Scan(&name, &age, &weight, &height)
+
 }
