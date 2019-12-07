@@ -13,5 +13,6 @@ func main() {
 	d := make([]int, len(c))
 	copy(d, c)
 	fmt.Println(c, d)
+	c[0] = 10
 
 }
