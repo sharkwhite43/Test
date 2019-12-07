@@ -8,5 +8,6 @@ func main() {
 	y := alphabets[:3]
 	z := alphabets[1:]
 	fmt.Println(x)
+	fmt.Println(y)
 
 }
