@@ -9,5 +9,6 @@ func main() {
 	z := alphabets[1:]
 	fmt.Println(x)
 	fmt.Println(y)
+	fmt.Println(z)
 
 }
