@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	names := []string{}
-	names = append(names, "Goku")
+	names = append(names, "Tan")
 	fmt.Println(names)
 
 }
