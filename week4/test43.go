@@ -17,5 +17,6 @@ func main() {
 	fmt.Println(c, d)
 	fmt.Println("................")
 	e := make([]int, 1)
+	copy(e, c)
 
 }
