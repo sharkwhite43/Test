@@ -10,5 +10,6 @@ func main() {
 
 	y := make([]int, 5, 10)
 	fmt.Println(y)
+	fmt.Println(len(y))
 
 }
