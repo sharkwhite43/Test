@@ -11,4 +11,6 @@ func main() {
 	h := elements["H"]
 	fmt.Println(h)
 
+	n, found := elements["N"]
+
 }
