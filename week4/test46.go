@@ -11,5 +11,6 @@ func main() {
 
 	y := map[string]int{"key": 10, "Key2": 20}
 	y["key3"] = 30
+	fmt.Println(y)
 
 }
