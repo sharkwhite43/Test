@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 	elements := make(map[string]string)
 	elements["H"] = "Hydrogen"
@@ -7,5 +9,6 @@ func main() {
 	elements["Li"] = "Lithium"
 
 	h := elements["H"]
+	fmt.Println(h)
 
 }
