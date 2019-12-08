@@ -6,4 +6,6 @@ func main() {
 	elements["He"] = "Helium"
 	elements["Li"] = "Lithium"
 
+	h := elements["H"]
+
 }
