@@ -9,6 +9,7 @@ func main() {
 	elements["Li"] = "Lithium"
 	fmt.Println(elements)
 
-	delete(elements, "h")
+	delete(elements, "H")
+	fmt.Println(elements)
 
 }
