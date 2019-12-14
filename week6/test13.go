@@ -7,4 +7,6 @@ func say() {
 }
 
 func main() {
-	
+	defer say()
+
+}
