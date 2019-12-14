@@ -11,5 +11,6 @@ func port() {
 
 }
 func main() {
+	defer say()
 
 }
