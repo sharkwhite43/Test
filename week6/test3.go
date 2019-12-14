@@ -5,5 +5,6 @@ func tan(x, y int) (int, int) {
 }
 
 func main() {
+	x, y := tan(20, 15)
 
 }
