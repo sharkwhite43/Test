@@ -16,4 +16,5 @@ func main() {
 	x := computer(sum)
 	y := computer(suntract)
 	fmt.Println(x)
+	fmt.Println(y)
 }
