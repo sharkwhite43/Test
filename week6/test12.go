@@ -6,6 +6,6 @@ func compyter(fn func(int, int) int) int {
 
 func main() {
 	sum := func(x, y int) int {
-
+		return x + y
 	}
 }
