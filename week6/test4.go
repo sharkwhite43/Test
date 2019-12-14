@@ -8,7 +8,7 @@ func sum(number ...int) int {
 	return total
 
 }
-
 func main() {
+	x := sum(1, 3, 5, 7, 9)
 
 }
