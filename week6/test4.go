@@ -8,3 +8,7 @@ func sum(number ...int) int {
 	return total
 
 }
+
+func main() {
+
+}
