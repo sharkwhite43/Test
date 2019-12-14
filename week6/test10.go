@@ -6,5 +6,7 @@ func suntract(number int) {
 }
 
 func main() {
+	x := (10 , 15)
+	suntract(x)
 
 }
