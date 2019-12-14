@@ -12,4 +12,5 @@ func main() {
 		return x - y
 	}
 	x := computer(sum)
+	y := computer(suntract)
 }
