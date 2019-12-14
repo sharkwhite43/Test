@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func compyter(fn func(int, int) int) int {
+func compute(fn func(int, int) int) int {
 	return fn(3, 4)
 }
 
@@ -13,8 +13,8 @@ func main() {
 	subtract := func(x, y int) int {
 		return x - y
 	}
-	x := computer(sum)
-	y := computer(suntract)
+	x := compute(sum)
+	y := compute(subtract)
 	fmt.Println(x)
 	fmt.Println(y)
 }
