@@ -1,5 +1,5 @@
 package main
 
-func main() {
+func subtract(x, y int) int {
 
 }
