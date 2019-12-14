@@ -13,5 +13,6 @@ func port() {
 func main() {
 	defer say()
 	defer port()
+	fmt.Println("Hello World")
 
 }
