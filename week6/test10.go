@@ -1,13 +1,17 @@
 package main
 
-func suntract(number int) {
-	number = number - 1
+import "fmt"
+
+func suntract(number1, number2 int) {
+	number1 = number1 - 1
+	number2 = number2 - 1
 
 }
 
 func main() {
-	x := (10 , 15)
-	suntract(x)
-	fmt.Println(x)
+	x := 10
+	y := 15
+	suntract(x, y)
+	fmt.Println(x, y)
 
 }
