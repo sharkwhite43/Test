@@ -9,5 +9,6 @@ func say(greet string) func(string) string {
 }
 
 func main() {
+	x := say("Hello")
 
 }
