@@ -6,6 +6,6 @@ func main() {
 	add := func(x, y int) int {
 		return x + y
 	}
-	x := add(10, 20)
+	x := add(156, 214)
 	fmt.Println(x)
 }
