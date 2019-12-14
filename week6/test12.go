@@ -10,6 +10,6 @@ func main() {
 	}
 	subtract := func(x, y int) int {
 		return x - y
-
 	}
+	x := computer(sum)
 }
