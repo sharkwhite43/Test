@@ -5,7 +5,9 @@ func makeEven() func() int {
 	return func() int {
 		even = even + 2
 		return even
-
 	}
+}
 
+func main() {
+	nextEven := makeEven()
 }
