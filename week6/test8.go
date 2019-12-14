@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func makeEven() func() int {
-	even := 0
+	even := 15
 	return func() int {
 		even = even + 2
 		return even
