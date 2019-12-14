@@ -7,11 +7,5 @@ func say() {
 }
 
 func port() {
-	fmt.Println("Hello Boat")
 
-}
-func main() {
-	defer say()
-	defer port()
-	fmt.Println("Hello World")
 }
