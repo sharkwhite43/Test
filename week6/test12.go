@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func compyter(fn func(int, int) int) int {
 	return fn(3, 4)
 }
@@ -13,4 +15,5 @@ func main() {
 	}
 	x := computer(sum)
 	y := computer(suntract)
+	fmt.Println(x)
 }
