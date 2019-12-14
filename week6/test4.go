@@ -14,4 +14,6 @@ func main() {
 	x := sum(1, 3, 5, 7, 9)
 	fmt.Println(x)
 
+	y := sum()
+
 }
