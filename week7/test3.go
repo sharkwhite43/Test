@@ -2,11 +2,12 @@ package main
 
 import "fmt"
 
-func handlepanuc() {
+func handlePanuc() {
 	text := recover()
 	fmt.Println(text)
 
 }
 func main() {
+	defer handlePanic()
 
 }
