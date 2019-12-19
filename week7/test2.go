@@ -1,6 +1,7 @@
 package main
 
 func main() {
-	oanic("Hello  panic")
+	panic("Hello  panic")
+	text := recover()
 
 }
