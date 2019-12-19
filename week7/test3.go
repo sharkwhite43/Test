@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func handlePanuc() {
+func handlePanic() {
 	text := recover()
 	fmt.Println(text)
 
