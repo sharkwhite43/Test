@@ -13,4 +13,7 @@ func toyou() {
 func main() {
 	defer Toomorro()
 	defer toyou()
+	defer toyou()
+	panic("Hello Tan")
+}ิ
 	
