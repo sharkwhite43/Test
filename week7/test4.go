@@ -10,3 +10,6 @@ func toyou() {
 	ting := recover()
 	fmt.Println(ting)
 }
+func main() {
+	defer Toomorro()
+	
