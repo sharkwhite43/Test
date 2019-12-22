@@ -1,6 +1,7 @@
 package main
 
 func main() {
-	panic()
+	panic(string)
+	meow := recover
 
 }
