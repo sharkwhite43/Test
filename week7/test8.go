@@ -1,7 +1,10 @@
 package main
 
+import "fmt"
+
 func main() {
-	panic(string)
-	meow := recover
+	panic("Cat")
+	meow := recover()
+	fmt.Println(meow)
 
 }
