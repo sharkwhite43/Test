@@ -12,4 +12,5 @@ func toyou() {
 }
 func main() {
 	defer Toomorro()
+	defer toyou()
 	
