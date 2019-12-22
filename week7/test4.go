@@ -7,3 +7,5 @@ func Toomorro() {
 	fmt.Println(morning)
 }
 func toyou() {
+	ting := recover()
+
