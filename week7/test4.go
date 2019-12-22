@@ -8,4 +8,5 @@ func Toomorro() {
 }
 func toyou() {
 	ting := recover()
-
+	fmt.Println(ting)
+}
