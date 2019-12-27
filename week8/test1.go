@@ -1,6 +1,7 @@
 package main
 
 func main() {
-	var studenName [10]string
+	var studentName [10]string
+	var studentAge [10]int
 
 }
