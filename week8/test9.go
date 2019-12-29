@@ -7,3 +7,7 @@ type I interface {
 type T struct {
 	text string
 }
+
+func (t T) F() {
+
+}
