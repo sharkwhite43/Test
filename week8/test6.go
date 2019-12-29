@@ -9,7 +9,7 @@ type student struct {
 }
 
 func (std student) introduce() {
-	fmt.Println{"Hello my name is", std.name}
+	fmt.Println("Hello my name is", std.name)
 }
 
 type pupil struct {
@@ -20,5 +20,6 @@ type pupil struct {
 func main() {
 	ball := student{name: "Tan"}
 	bas := pupil{std: Tan}
+	pup.std.introduce()
 
 }
