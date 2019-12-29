@@ -18,5 +18,7 @@ type pupil struct {
 }
 
 func main() {
+	var pup pupil
+	pup.name = "Tan"
 
 }
