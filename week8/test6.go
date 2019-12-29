@@ -19,7 +19,7 @@ type pupil struct {
 
 func main() {
 	ball := student{name: "Tan"}
-	bas := pupil{std: Tan}
+	pup := pupil{std: ball}
 	pup.std.introduce()
 
 }
