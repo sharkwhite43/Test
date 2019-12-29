@@ -9,6 +9,7 @@ func desc(i I) {
 }
 
 func main() {
-	var i Ti = 3.1459265359
+	var i T
+	i = 3.1459265359
 
 }
