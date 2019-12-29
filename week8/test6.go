@@ -10,5 +10,6 @@ func main() {
 	std := student{name: "Goku"}
 	p := &std
 	(*p).age = 19
+	p.email = "GoKu@gmaiil.com"
 
 }
