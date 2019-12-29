@@ -1,4 +1,7 @@
 package main
 
-type I interface {
+type I interface{}
+
+func desc(i I) {
+
 }
