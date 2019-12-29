@@ -12,4 +12,6 @@ func main() {
 	a.age = 19
 	a.email = "TanTawan23@gmail.com"
 
+	b := student{"Tle", 19, "Tle@mail.com"}
+
 }
