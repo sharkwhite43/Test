@@ -9,5 +9,6 @@ type student struct {
 func main() {
 	std := student{name: "Ball"}
 	p := &std
+	(*p).age = 18
 
 }
