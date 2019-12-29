@@ -14,5 +14,6 @@ func main() {
 
 	fmt.Println(std[0])
 	fmt.Println(std[0].name)
+	fmt.Println(std[0].age)
 
 }
