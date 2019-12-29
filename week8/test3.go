@@ -21,5 +21,6 @@ func main() {
 	d := student{age: 22}
 
 	fmt.Println(a)
+	fmt.Println(b)
 
 }
