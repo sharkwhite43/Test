@@ -12,5 +12,6 @@ func main() {
 	var i T
 	i = 3.1459265359
 	desc(i)
+	i = "Hello World"
 
 }
