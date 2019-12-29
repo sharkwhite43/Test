@@ -10,4 +10,6 @@ func main() {
 	var a student
 	a.name = "Tan"
 	a.age = 19
+	a.email = "TanTawan23@gmail.com"
+
 }
