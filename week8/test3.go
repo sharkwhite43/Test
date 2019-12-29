@@ -13,5 +13,6 @@ func main() {
 	a.email = "TanTawan23@gmail.com"
 
 	b := student{"Tle", 19, "Tle@mail.com"}
+	c := student{name: "Ter", email: "Ter@mail.com"}
 
 }
