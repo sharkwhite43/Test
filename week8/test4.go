@@ -8,5 +8,6 @@ type student struct {
 
 func main() {
 	std := student{name: "Ball"}
+	p := &std
 
 }
