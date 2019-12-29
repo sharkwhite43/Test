@@ -7,7 +7,7 @@ type student struct {
 }
 
 func (std student) introduce() {
-	fmt.Println"Hello my name is", std.name}
+	fmt.Println{"Hello my name is", std.name}
 func main() {
 
 }
