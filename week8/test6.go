@@ -18,5 +18,6 @@ type pupil struct {
 }
 
 func main() {
+	ball := student{name: "Tan"}
 
 }
