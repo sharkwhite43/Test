@@ -7,5 +7,7 @@ type student struct {
 }
 
 func main() {
-
+	var a student
+	a.name = "Tan"
+	a.age = 19
 }
