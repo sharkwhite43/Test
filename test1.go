@@ -1,10 +1,10 @@
-package main
+package myMath
 
-import (
-	"fmt"
-)
+func Average(numbers ...float64) float64 {
+	var total float64
+	for _, v := range numbers {
+		total = total + v
+	}
+	return total / float64(len(numbers))
 
-func main() {
-	fmt.Println("Hello World "[0:5])
-	fmt.Println("Hello World "[6:12])
 }
