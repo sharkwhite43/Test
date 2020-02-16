@@ -1,5 +1,5 @@
 package main
 
-func main() {
+func say(txt string) {
 
 }
