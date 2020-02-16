@@ -1,8 +1,8 @@
 package main
 
 func say(txt string) {
-	for i := 0; < 3 ; i++ {
-		
+	for i := 0; i < 3; i++ {
+
 	}
 
 }
