@@ -1,0 +1,5 @@
+package myMath
+
+func main() {
+
+}
