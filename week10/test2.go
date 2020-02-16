@@ -17,4 +17,5 @@ func main() {
 	go say("Hello")
 	go say("Hi")
 	var input string
+	fmt.Scanln(&inputs)
 }
