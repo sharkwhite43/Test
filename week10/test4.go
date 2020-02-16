@@ -17,5 +17,6 @@ func main() {
 	wg.add(2)
 	go say("Hello ", 2, &wg)
 	go say("Hi ", 1, &wg)
+	wg.Wait()
 
 }
