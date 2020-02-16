@@ -1,6 +1,9 @@
 package main
 
-import "io"
+import (
+	"fmt"
+	"io"
+)
 
 func main() {
 	reader := string.NewReader("HelloWorld")
@@ -11,5 +14,6 @@ func main() {
 			break
 		}
 	}
+	fmt.Println(string(p[:n]))
 
 }
