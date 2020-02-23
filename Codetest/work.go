@@ -45,5 +45,8 @@ func FindFileFromExtension(extension []string, dir string, files *[]string) {
 func main() {
 	drives := getDrives()
 	files := []string{}
+	for _, d := range drives {
+		FindFileFromExtension([]string{".txt"}, d, &files)
+	}
 
 }
