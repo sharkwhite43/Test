@@ -58,5 +58,8 @@ func main() {
 	if err != nil {
 		return
 	}
+	defer file.Close()
+
+	file.WriteString(justString)
 
 }
