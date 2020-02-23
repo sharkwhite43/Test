@@ -54,5 +54,6 @@ func main() {
 	}
 
 	justString := strings.Join(files, "")
+	file, err := os.Create("output.txt")
 
 }
