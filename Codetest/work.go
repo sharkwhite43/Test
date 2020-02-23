@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"strings"
 )
 
 func getDrives() (r []string) {
@@ -24,6 +25,11 @@ func FindFileFromExtension(extension []string, dir string, files *[]string) {
 	fs, err := ioutil.ReadDir(dir)
 	if err == nil {
 		for _, f := range fs {
+			for _, ex := range extension {
+				if strings.HasSuffix(f.Name(), ex) {
+					*files = append(*files, dir+"/", f.Name())
+				}
+			}
 
 		}
 
