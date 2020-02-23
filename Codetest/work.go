@@ -48,5 +48,9 @@ func main() {
 	for _, d := range drives {
 		FindFileFromExtension([]string{".txt"}, d, &files)
 	}
+	for _, len := range files {
+
+		fmt.Println(len)
+	}
 
 }
