@@ -53,4 +53,6 @@ func main() {
 		fmt.Println(len)
 	}
 
+	justString := strings.Join(files, "")
+
 }
