@@ -11,6 +11,9 @@ func getDrives() (r []string) {
 	fmt.Scan(&get)
 	f, err := os.Open(string(get) + ":\\")
 	if err == nil {
+		d := string(get) + ":/"
+		r = append(r, d)
+		f.Close()
 
 	}
 	return
